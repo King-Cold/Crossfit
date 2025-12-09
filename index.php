@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Crossfit</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="description" content="Home de la pagina">
+</head>
+<body>
+  <div class="home">
+    <div class="nav">
+      <div class="logo ">
+        <div class="img">
+          <img src="img/23.png" alt="">
+        </div>
+        <div class="nombre">
+          <p> CROS<span class="rojo">SFIT</span> </p>
+        </div>
+      </div>
+      <div class="navegador ">
+        <a href="index.php">HOME</a>  
+        <a href="sobre.html">SOBRE NOSOTROS</a>
+  <a href="clases.html">CLASES</a>
+  <a href="coaches.html">COACHES</a>
+  <a href="inscripciones.html">INSCRIPCIONES</a>
+  <a href="contacto.html">CONTACTO</a>
+
+      </div>
+    </div>
+<div class="frase ancho">
+  <h2>Supera tus <span class="rojo">límites. </span><br>Vive la experiencia <br> <span class="rojo">CrossFit.</span></h2><hr><br>
+  
+  <p>En CROSSFIT te ayudamos a transformar tu cuerpo y tu mente<br> con  entrenamientos funcionales, coaches certificados<br> y una comunidad que  te impulsa todos los días.</p>
+
+  <a class="btn_rojo" href="inscripciones.html">Inscribete</a>
+</div>
+</div>
+<div class="beneficios centrar">
+  <h2 class="subtitulos ancho">¿Por Qué Entrenar con Nosotros? <br><br><hr class="ancho"></h2 >
+  <div class="cont-beneficios ancho">
+    <div class="cajas_ben ">
+      <div class="caja_benf1 ">
+  <img src="img/fire.svg" alt=""><br>
+</div>
+<p class="subsubtitulos">Entrenamientos de Alta Intensidad</p><br>
+<p>Mejora fuerza, resistencia y movilidad con sesiones diseñadas para todos los niveles.</p>
+    </div>
+     <div class="cajas_ben ">
+      <div class="caja_benf1 ">
+  <img src="img/fuerza.svg" alt=""><br>
+</div>
+<p class="subsubtitulos">Coaches <br> Certificados</p><br>
+<p>Nuestro equipo te guía y corrige para que progreses de manera segura.</p>
+    </div>
+     <div class="cajas_ben ">
+      <div class="caja_benf1 ">
+  <img src="img/manos.svg" alt=""><br>
+</div>
+<p class="subsubtitulos">Comunidad que Motiva</p><br>
+<p>Entrena rodeado de personas que te apoyan y te retan a ser mejor cada día.</p>
+    </div>
+     <div class="cajas_ben ">
+      <div class="caja_benf1 ">
+  <img src="img/pieza.svg" alt=""><br>
+</div>
+<p class="subsubtitulos">Resultados <br> Reales</p><br>
+<p>Cambia tu composición corporal, tu energía y tu estilo de vida.</p>
+    </div>
+  
+
+  </div>
+
+</div>
+
+<div class="fondo-home2">
+<br><br>
+
+<div class="programas_desta ancho centrar">
+  <h2 class="subtitulos">Programas Destacados</h2>
+  <br>
+    <hr class="ancho">
+  <div class="caja_prog "> 
+    <div class="cont_img_d">
+    <img src="img/CrossFit_Regular.jpg" alt="">
+  </div>
+<p class="subsubtitulos">CrossFit Regular</p><br>
+<p class="parrafos">WODs diarios que mejoran fuerza, resistencia y acondicionamiento.</p>
+</div>
+<div class="caja_prog "> 
+    <div class="cont_img_d ">
+    <img src="img/Endurance.jpg" alt="">
+  </div>
+<p class="subsubtitulos">Endurance</p><br>
+<p class="parrafos">Ideal para mejorar resistencia aeróbica y cardiovascular.</p>
+</div>
+<div class="caja_prog "> 
+    <div class="cont_img_d">
+    <img src="img/Halterofilia.jpg" alt="">
+  </div>
+<p class="subsubtitulos">Halterofilia</p><br>
+<p class="parrafos">Enfocado en técnica de levantamientos olímpicos.</p>
+</div>
+<div class="caja_prog"> 
+    <div class="cont_img_d ">
+    <img src="img/kit.png" alt="">
+  </div>
+<p class="subsubtitulos">CrossFit Kids</p><br>
+<p class="parrafos">Entrenamientos divertidos, seguros y adaptados a su edad.</p>
+</div>
+ 
+
+</div>
+</div>
+<br><br>
+<div class="testimonios">
+    <h2 class="subtitulos centrar" >Testimonios</h2><br>
+    <hr class="ancho">
+
+    <marquee class="centrar" behavior="scroll" direction="left" scrollamount="20"   onmouseover="this.stop();" onmouseout="this.start();">
+        <span class="caja_testimonio" >
+          <img src="img/p1.png" alt="persona" ><br>
+             “Entrenar aquí me devolvió la energía. Bajé 6 kg <br> en mi primer mes y me siento  más fuerte.”<br> — María, 26
+        </span>
+
+        <span class="caja_testimonio">
+          <img src="img/p_2.png">
+            <br>
+           “Los coaches son muy profesionales. Corrigieron mi <br> técnica y ahora levanto mucho mejor.” 
+           <br> — Jorge, 31
+        </span>
+
+        <span class="caja_testimonio"  >
+          <img src="img/p3.png"alt="persona" >
+            <br>
+           “La comunidad es lo que más amo. Te apoyan y te <br> motivan siempre.” 
+           <br> — Sandra, 29
+        </span>
+
+        <span class="caja_testimonio"  >
+          <img src="img/p4.png"alt="persona" >
+            <br>
+           “Nunca había hecho CrossFit, pero aquí me guiaron <br> paso a paso. Excelente lugar.” 
+           <br> — Luis, 34
+        </span>
+
+        <span class="caja_testimonio"  >
+          <img src="img/p5.png" alt="persona" >
+            <br>
+            “Los resultados hablan solos. Aumenté fuerza, <br> resistencia y confianza.” 
+            <br> — Leticia, 40
+        </span>
+    </marquee>
+</div>
+<div class="anuncio">
+    <h2 style="font-size: 32px; margin-bottom: 10px;">
+        ¿Listo para cambiar tu vida?
+    </h2>
+
+    <p style="font-size: 20px; margin-bottom: 25px;">
+        Únete a <strong class="rojo" >CrossFit</strong> y comienza hoy tu transformación.
+    </p>
+
+    <a class="btn_rojo" href="inscripciones.html"
+    >Inscribete
+    </a>
+</div>
+<script>
+  const links = document.querySelectorAll('.navegador a');
+  links.forEach(link => {
+    if(link.href === window.location.href){
+      link.classList.add('active');
+    }
+  });
+</script>
+</body>
+<footer class="footer ">
+  <p> <span class="blanco">&copy; 2025 CROSSFIT</span class="blanco">. Todos los derechos reservados  |  Política de Privacidad  | Términos y Condiciones</p>
+        <p class="blanco">
+            Diseño Web por Rodrigo Alejandro Chi Catzim
+        </p>
+    </div>
+</footer>
+</html>
