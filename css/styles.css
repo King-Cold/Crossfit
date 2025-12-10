@@ -11,6 +11,9 @@
     --color-fondo:#000000;
     --color-fondo--2:#151515;
     --color--fondo--3:#222222;
+    --color--sub--1:#ffffff;
+    --color--4:#e63946;
+    
 
 }
 * {
@@ -157,7 +160,8 @@ font-weight: 500;
 .subsubtitulos{
 font-size: 22px;
 font-weight: bold;
-color: var(--color-2);
+color: var(--color--sub--1);
+border-radius: 30px;
 }
 .cajas_ben{
   width: 260px;
@@ -173,14 +177,15 @@ width: 120px;
 margin: auto;
 }
 .caja_benf1 img{
-  padding: 10px;
+  padding: 15px;
   border-radius: 100%;
-  background-color: var(--color--fondo--3);
+  background-color: var(--color-primario);
   transition: 0.5s;
 }
 .caja_benf1 img:hover{
-  background-color: var(--color-primario);
+  background-color: var(--color-2);
   color: var(--color-fondo);
+  transform: scale(1.1);
 }
 
 .programas_desta {
@@ -224,12 +229,13 @@ border-radius: 20px;
 }
 
 .caja_testimonio{
- border:1px solid #f5f5f5;
+ background-color: var(--color-fondo--2);
  padding: 20px;
  color: var(--color-texto);
  display: inline-block;
  margin: 60px 30px;
  vertical-align: top;
+ border-radius: 20px;
 }
 
 .caja_testimonio img{
@@ -265,4 +271,124 @@ border-radius: 20px;
 .blanco{
   color: #bbbbbb;
   width: 26%;
+}
+.fondo-gris{
+  background-color: var(--color--fondo--3);
+}
+.contactanos {
+  height: 100vh;
+  
+}
+.cont-contacto{
+  height: 90vh;
+  width: 100%;
+  text-align: center;
+}
+.contac-izq{
+  width: 49%;
+display: inline-block;
+vertical-align: top;
+}
+
+.contac-dere{
+width: 50%;
+margin-left: -5px;
+display: inline-block;
+vertical-align: top;
+background-color:var(--color--fondo--3);
+/* background-color: var(--color-2); */ 
+height: 555px;
+padding: 50px 50px;
+}
+
+.contac-dere hr{
+  background-color: #ffffff;
+  margin: auto;
+  line-height: 16px;
+  margin-top: 10px;
+}
+.contac-dere input , textarea{
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+input,textarea::placeholder {
+    font-family: poppins;
+    font-weight: bold;
+}
+.contac-dere textarea{
+  resize: none;
+  height: 130px;
+}
+form{
+  text-align: left;
+}
+.contac-dere label{
+  font-weight: bolder;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.rojo-bajo{
+  color: var(--color-2);
+}
+
+.btn-blanco{
+  background-color: var(--color-2);
+  font-size: 17px;
+  padding: 10px 40px;
+  border: 0px;
+  font-weight: bolder;
+  font-family: poppins;
+  color: var(--color-texto);
+  width: 100%;
+  transition: 0.5s;
+
+}
+.btn-blanco:hover{
+  border-radius:20px ;
+  background-color: var(--color-primario);
+}
+
+.logo-red img{
+width: 250px; 
+}
+
+.img-redes-iz{
+  width: 50%;
+  display: inline-block;
+
+}
+
+.img-redes-de {
+  width: 49%;
+  display: inline-block;
+  
+}
+.img-redes-iz img{
+  width: 50px;
+
+}
+
+.img-redes-de img {
+  width:50px;
+  
+}
+.redes-ab img {
+  width:50px;
+  
+}
+.redes-ab hr{
+  margin: auto;
+}
+.icon_redes img{
+  margin-left: 20px;
+  width: 70px;
+  padding: 10px;
+  transition: 0.5s;
+   border-radius: 100px;
+}
+.icon_redes img:hover{
+ background-color: var(--color-2);
 }

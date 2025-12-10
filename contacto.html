@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Crossfit</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="description" content="Home de la pagina">
+</head>
+<body>
+
+<div class="fondo-gris">
+      <div class="nav">
+        <div class="logo ">
+          <div class="img">
+            <img src="img/23.png" alt="">
+          </div>
+          <div class="nombre">
+            <p> CROS<span class="rojo">SFIT</span> </p>
+          </div>
+        </div>
+        <div class="navegador ">
+          <a href="index.html">HOME</a>  
+          <a href="sobre.html">SOBRE NOSOTROS</a>
+    <a href="clases.html">CLASES</a>
+    <a href="coaches.html">COACHES</a>
+    <a href="inscripciones.html">INSCRIPCIONES</a>
+    <a href="contacto.html">CONTACTO</a>
+  
+        </div>
+      </div>
+</div>
+<div class="contactanos">
+  <br>
+  <h2  class="subtitulos centrar">¿Tienes dudas o quieres comenzar a entrenar?<br><br> <span class="rojo-bajo">Escríbenos y con gusto te ayudamos.</span></h2>
+  <br><br>
+  <div class="cont-contacto ">
+    <div class="contac-izq">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1862.4201764326524!2d-89.59881176145744!3d20.999035699236952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5676cd435050e5%3A0xa35ad3210ee96627!2sC.%203%20396%2C%20Felipe%20Carrillo%20Puerto%2C%2097208%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1765383795863!5m2!1ses!2smx" width="100%" height="555px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="contac-dere">
+      <h1>Contacto</h1>
+      <hr>
+      <br>
+      <form action="">
+        <label for="">Nombre completo:</label>
+          <input type="text" placeholder="Nombre completo"><br>
+           <label for="">Correo Electronico:</label>
+          <input type="text" placeholder="E-mail"><br>
+          <label for="">Comentario:</label>
+          <textarea placeholder="Mensaje" name="" id=""></textarea><br>
+          <button class="btn-blanco">Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>
+<br>
+<div class="redes ancho centrar mar">
+  <div class="logo-red ">
+          <img src="img/logo-cf.png" alt="">
+        
+          
+        </div>
+        <br>
+        <br>
+        <div class="img-redes-iz">
+          <img src="img/location.svg" alt="">
+          <p>C. 3 396, Felipe Carrillo Puerto, 97208 Mérida, Yuc.</p>
+        </div>
+        <div class="img-redes-de">
+          <img src="img/email.svg" alt="">
+          <p>contacto@tuboxcrossfit.com</p>
+        </div>
+        <div class="redes-ab">
+      <img src="img/whatsapp.svg" alt="">
+      <p>+52 999 123 4567</p>
+      <br><br>
+      <hr>
+
+      <div class="icon_redes">
+        <br>
+        <img src="img/instagram.svg" alt="">
+        <img src="img/facebook.svg" alt="">
+        <img src="img/twitter.svg" alt="">
+      </div>
+        </div>
+  </div>
+<script>
+  const links = document.querySelectorAll('.navegador a');
+  links.forEach(link => {
+    if(link.href === window.location.href){
+      link.classList.add('active');
+    }
+  });
+</script>
+</body>
+<br>
+<div class="footer ">
+  <p> <span class="blanco">&copy; 2025 CROSSFIT</span class="blanco">. Todos los derechos reservados  |  Política de Privacidad  | Términos y Condiciones</p>
+        <p class="blanco">
+            Diseño Web por Rodrigo Alejandro Chi Catzim
+        </p>
+    </div>
+</footer>
+</html>
