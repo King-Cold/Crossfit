@@ -521,57 +521,6 @@ border-radius: 20px;
   padding: 30px;
 }
 
-.clases p{
-  font-size: 18px;
-  line-height: 30px;
-  padding: 20px;
-  border-radius: 20px;
-}
-
-.catalogo p{
- font-size: 15px;
-}
-
-.fondo-clases{
-  background: linear-gradient(
-                rgba(0,0,0,0.8),
-                rgba(0,0,0,0.8)
-              ), url('../img/fondo3.png');
-    background-size: cover;    
-    background-position: center;  
-    background-repeat: no-repeat;  
-    background-attachment: fixed;
-}
-.cont-catalogo{
-  background-color: var(--color--fondo--3);
-  border-radius: 20px;
-  margin-bottom: 30px;
-  transition: 0.5s;
-}
-.cont-catalogo img{
-    height: 50vh;
-    object-fit: cover;
-}
-.cont-catalogo:hover{
-  background-color: var(--color-fondo--2);
-    transform: scale(1.05);
-
- 
-}
-.catalogo {
-  padding: 30px;
-}
-.cont-catalogo h3{
-  font-size: 30px;
-  color: var(--color-terseario);
-}
-.catalogo hr{
-   background-color: var(--color--sub--1);
-}
-.cont-catalogo h4{
-  font-size: 20px;
-  color: var(--color-2);
-}
 .horarios hr{
   width: 20%;
 }
@@ -580,7 +529,7 @@ border-radius: 20px;
   width: 90%;
     margin: 40px auto;
     text-align: center;
-}
+  }
 .tabla-horario {
     width: 100%;
     border-collapse: collapse;
@@ -588,9 +537,9 @@ border-radius: 20px;
     background:  var(--color--sub--1);
     border-radius: 10px;
     overflow: hidden;
-}
+  }
 
-.tabla-horario th {
+  .tabla-horario th {
     background-color: var(--color-primario);
     color:  var(--color--sub--1);
     padding: 15px;
@@ -603,7 +552,7 @@ border-radius: 20px;
     border-bottom: 1px solid var(--color--sub--1);
     color: var(--color--fondo--3);
     transition: 0.5s;
-
+    
 }
 .tabla-horario td:hover{
     padding: 14px;
@@ -613,16 +562,16 @@ border-radius: 20px;
     color: var(--color-texto);
     font-weight: bolder;
     border-radius: 20px;
-}
+  }
 
-.tabla-horario tr:hover {
+  .tabla-horario tr:hover {
     background-color: var(--color-texto);
 }
 
 .tabla-horario td:first-child {
-    font-weight: bold;
-    background-color: var(--color-texto);
-    color: var(--color-fondo--2);
+  font-weight: bold;
+  background-color: var(--color-texto);
+  color: var(--color-fondo--2);
 }
 .faq{
  padding: 50px;
@@ -647,4 +596,173 @@ border-radius: 20px;
 
 .faq details[open] {
   background: var(--color--4); /* rojo crossfit */
+}
+
+.fondo-coaches{
+  background: linear-gradient(
+                rgba(0,0,0,0.8),
+                rgba(0,0,0,0.8)
+                ), url('../img/fondo5.png');
+    background-size: cover;    
+    background-position: center;  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+}
+.coaches {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.coaches h2 {
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+}
+
+.coaches-container {
+    width: 100%;
+}
+
+.coach-card {
+    background-color: var(--color--fondo--3);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    display: inline-block;
+    width: 29%;
+    vertical-align: top;
+    margin: 20px;
+        transition: 0.5s;
+}
+
+.coach-card img {
+  width: 90%;
+  object-fit: cover;
+  border-radius: 100%;
+  border: var(--color-texto) 2px solid;
+}
+
+.coach-card h3 {
+    margin: 12px 0 5px;
+    font-size: 20px;
+  }
+
+  .coach-card p {
+    margin: 4px 0;
+    text-align: left;
+  }
+
+  .coach-redes {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+.coach-card:hover{
+      transform: scale(1.1);
+    }
+.coach-redes img {
+  width: 40px;
+    padding: 5px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: var(--color--sub--1) solid 1px;
+  }
+  
+  .coach-redes img:hover {
+    transform: scale(1.2);
+    background-color: var(--color-2);
+}
+.label {
+    font-weight: bold;
+    color: var(--color-2);
+}
+
+.clases-grid {
+  text-align: center;
+}
+
+.clase-card {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  background-color: var(--color--fondo--3);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px;
+  text-align: left;
+    transition: 0.5s;
+}
+.clase-card:hover{
+  background-color: var(--color-fondo--2);
+    transform: scale(1.05);
+
+ 
+}
+.clase-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.clase-card h3 {
+  margin-top: 12px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+    color: var(--color-terseario);
+    padding: 10px;
+    border-bottom:3px solid var(--color--sub--1) ;
+}
+
+.clase-card p {
+  font-size: 14px;
+  margin: 6px 0;
+  font-weight: 300;
+}
+
+.tag {
+  color: var(--color-2) ;
+  font-weight: bold;
+}
+.clases p{
+  font-size: 18px;
+  line-height: 30px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+
+
+.fondo-clases{
+  background: linear-gradient(
+                rgba(0,0,0,0.8),
+                rgba(0,0,0,0.8)
+              ), url('../img/fondo3.png');
+    background-size: cover;    
+    background-position: center;  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+}
+
+.btn-ver {
+  display: inline-block;
+  margin-top: 12px;
+  margin-left: 20px;
+  padding: 8px 15px;
+  background: var(--color-2);
+  color: var(--color--sub--1);
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn-ver:hover {
+  background: var(--color-primario);
+}
+
+.titulo-icono img{
+  width: 20px;
 }
