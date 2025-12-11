@@ -766,3 +766,69 @@ border-radius: 20px;
 .titulo-icono img{
   width: 20px;
 }
+
+.formulario-inscripcion {
+  width: 90%;
+  max-width: 600px;
+  margin: 40px auto;
+  background: #1a1a1a;
+  padding: 25px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.formulario-inscripcion h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.formulario-inscripcion p {
+  text-align: center;
+  font-size: 14px;
+  color: #ddd;
+}
+
+.formulario-inscripcion form {
+  margin-top: 20px;
+}
+
+.formulario-inscripcion label {
+  font-weight: bold;
+  margin: 8px 0 3px;
+  display: block;
+}
+
+.formulario-inscripcion input,
+.formulario-inscripcion select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.formulario-inscripcion input[type="file"] {
+  padding: 5px;
+  background: #fff;
+}
+
+.btn-inscribir {
+  width: 100%;
+  padding: 12px;
+  background: #e63946;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.btn-inscribir:hover {
+  background: #b82b35;
+}
