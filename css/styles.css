@@ -13,6 +13,8 @@
     --color--fondo--3:#222222;
     --color--sub--1:#ffffff;
     --color--4:#e63946;
+    --color--rgb-1: rgb(230, 14, 61);
+    --rgb--color-2:rgb(230, 42, 101);
     
 
 }
@@ -302,7 +304,7 @@ padding: 50px 50px;
 }
 
 .contac-dere hr{
-  background-color: #ffffff;
+  background-color: var(--color-2);
   margin: auto;
   line-height: 16px;
   margin-top: 10px;
@@ -391,4 +393,130 @@ width: 250px;
 }
 .icon_redes img:hover{
  background-color: var(--color-2);
+}
+.sobre_nosotros{
+ background: linear-gradient(
+                rgba(0,0,0,0.5),
+                rgba(0,0,0,0.5)
+              ), url('../img/fondo.png');
+    background-size: cover;    
+    background-position: center;  
+    background-repeat: no-repeat;  
+    height: 100vh;
+}
+.der{
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.izq{
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nosotros-de{
+background-image: url(../img/6.png);
+    background-size: cover;    
+    background-position: center;  
+    background-repeat: no-repeat;  
+    height: 50vh;
+    border-radius: 30px;
+    border: #E60E3D 4px solid;
+}
+
+.sobre_nosotros h1{
+  font-size:35px;
+  line-height: 50px;
+  font-weight: 200;
+}
+.nosotros-izq{
+  padding: 0px 40px;
+}
+.nosotros-izq p{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 30px;
+
+}
+
+.nosotros-izq h3{
+text-align: left;
+line-height: 20px;
+font-size: 30px;
+
+}
+
+.misi-visi p{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  
+}
+
+.misi-visi h4{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 900;
+  
+}
+
+.mision{
+  width: 44%;
+  margin: 30px;
+  padding: 30px;
+  background-color: var(--color--fondo--3);
+   border-radius: 20px;
+      transition: 0.5s;
+}
+.vision{
+  width: 43%;
+   margin: 30px;
+   vertical-align: top;
+   padding: 30px;
+   background-color: var(--color--fondo--3);
+    border-radius: 20px;
+    transition: 0.5s;
+   
+
+}
+.mision:hover{
+  transform: scale(1.1);
+
+}
+
+.vision:hover{
+  transform: scale(1.1);
+}
+.mision p{
+font-size: 17px;
+
+}
+
+.vision p{
+ font-size: 17px;
+}
+
+
+.galeria img{
+ width: 30%;
+ margin: 10px;
+ border-radius: 10px;
+ border: var(--color--4) 2px solid;
+ transition: 0.5s;
+ height: 300px;
+ object-fit: cover;
+
+}
+.galeria img:hover{
+  transform: scale(1.1);
+box-shadow: 0 0 20px 0px var(--color-2);
+border-radius: 20px;
+}
+.cierre{
+  font-size: 20px;
+  line-height: 30px;
+  padding: 30px;
 }
