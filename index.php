@@ -9,25 +9,7 @@
 </head>
 <body>
   <div class="home">
-    <div class="nav">
-      <div class="logo ">
-        <div class="img">
-          <img src="img/23.png" alt="">
-        </div>
-        <div class="nombre">
-          <p> CROS<span class="rojo">SFIT</span> </p>
-        </div>
-      </div>
-      <div class="navegador ">
-        <a href="index.html">HOME</a>  
-        <a href="sobre.html">SOBRE NOSOTROS</a>
-  <a href="clases.html">CLASES</a>
-  <a href="coaches.html">COACHES</a>
-  <a href="inscripciones.html">INSCRIPCIONES</a>
-  <a href="contacto.html">CONTACTO</a>
-
-      </div>
-    </div>
+ <?php include "include/menu.php"?>
 <div class="frase ancho">
   <h2>Supera tus <span class="rojo">límites. </span><br>Vive la experiencia <br> <span class="rojo">CrossFit.</span></h2><hr><br>
   
@@ -161,7 +143,7 @@
         Únete a <strong class="rojo" >CrossFit</strong> y comienza hoy tu transformación.
     </p>
 
-    <a class="btn_rojo" href="inscripciones.html"
+    <a class="btn_rojo" href="membresias.php"
     >Inscribete
     </a>
 </div>
@@ -174,10 +156,5 @@
   });
 </script>
 </body>
-<div class="footer ">
-  <p> <span class="blanco">&copy; 2025 CROSSFIT</span class="blanco">. Todos los derechos reservados  |  Política de Privacidad  | Términos y Condiciones</p>
-        <p class="blanco">
-            Diseño Web por Rodrigo Alejandro Chi Catzim
-        </p>
-    </div>
+<?php include "include/abajo.php"?>
 </html>

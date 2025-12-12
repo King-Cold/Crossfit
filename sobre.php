@@ -3,32 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Crossfit</title>
+  <title>Sobre Nosotros- Crossfit</title>
   <link rel="stylesheet" href="css/styles.css">
   <meta name="description" content="Home de la pagina">
 </head>
 <body>
 
 <div class="fondo-gris">
-      <div class="nav">
-        <div class="logo ">
-          <div class="img">
-            <img src="img/23.png" alt="">
-          </div>
-          <div class="nombre">
-            <p> CROS<span class="rojo">SFIT</span> </p>
-          </div>
-        </div>
-        <div class="navegador ">
-          <a href="index.html">HOME</a>  
-          <a href="sobre.html">SOBRE NOSOTROS</a>
-    <a href="clases.html">CLASES</a>
-    <a href="coaches.html">COACHES</a>
-    <a href="inscripciones.html">INSCRIPCIONES</a>
-    <a href="contacto.html">CONTACTO</a>
-  
-        </div>
-      </div>
+ <?php include "include/menu.php"?>
 </div>
 
 <div class="sobre_nosotros">
@@ -70,6 +52,7 @@
     </div>
 
     <div class="nosotros-de der">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/8cPQpSS8Tt4?si=FzDCvWbey9NYWUPi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <br>
     </div>
 
@@ -108,17 +91,12 @@
 <br>
 <div class="cierre fondo-gris">
  <p class=" ancho ">"No se trata solo de levantar pesas o registrar tiempos; se trata de construir la mejor versión de ti mismo. Si estás listo para dejar atrás las excusas y unirte a una comunidad que te retará y te apoyará en cada paso, es hora de empezar. Tu transformación comienza hoy mismo."<br>
- <a class="btn_rojo" href="inscripciones.html"
+ <a class="btn_rojo" href="membresias.php"
     >Inscribete
     </a></p>
  
 </div>
-<div class="footer ">
-  <p> <span class="blanco">&copy; 2025 CROSSFIT</span class="blanco">. Todos los derechos reservados  |  Política de Privacidad  | Términos y Condiciones</p>
-        <p class="blanco">
-            Diseño Web por Rodrigo Alejandro Chi Catzim
-        </p>
-    </div>
+<?php include "include/abajo.php"?>
 <script>
   const links = document.querySelectorAll('.navegador a');
   links.forEach(link => {

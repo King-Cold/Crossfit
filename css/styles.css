@@ -416,14 +416,9 @@ width: 250px;
   vertical-align: middle;
 }
 
-.nosotros-de{
-background-image: url(../img/6.png);
-    background-size: cover;    
-    background-position: center;  
-    background-repeat: no-repeat;  
-    height: 50vh;
-    border-radius: 30px;
-    border: #E60E3D 4px solid;
+.nosotros-de iframe{
+    border: var(--color-2) 4px solid;
+    border-radius: 20px;
 }
 
 .sobre_nosotros h1{
@@ -768,9 +763,7 @@ border-radius: 20px;
 }
 
 .formulario-inscripcion {
-  width: 90%;
-  max-width: 600px;
-  margin: 40px auto;
+  width: 50%;
   background: #1a1a1a;
   padding: 25px;
   border-radius: 12px;
@@ -831,4 +824,116 @@ border-radius: 20px;
 
 .btn-inscribir:hover {
   background: #b82b35;
+}
+
+.membresias {
+    text-align: center;
+    background:var(--color-fondo);
+    padding: 60px 0;
+}
+
+.plan {
+    background: var(--color--fondo--3);
+    width: 300px;
+    padding: 40px 30px;
+    display: inline-block; 
+    vertical-align: top;
+    margin: 0 15px;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--color--sub--1);
+    height: 70vh;
+    transition: 0.5s;
+}
+
+.plan h4 {
+    color:var(--color-terseario);
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.plan h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.precio {
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--color-terseario);
+    margin-bottom: 25px;
+}
+.plan:hover {
+    transform: scale(1.1);
+}
+
+
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.plan ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.plan a {
+    background: var(--color--sub--1);
+    border: none;
+    padding: 12px 20px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: poppins;
+    font-size: 17px;
+    transition: 0.3s;
+    color: var(--color-fondo);
+}
+
+.plan a:hover {
+    background: var(--color-2);
+    color: var(--color--sub--1);
+}
+
+.inscripciones-izq{
+    background: linear-gradient(
+               rgba(0,0,0,0.5), rgba(230,42,101,0.3)
+                
+              ), url('../img/6.png');
+    background-size: cover;    
+    background-position: center;  
+    background-repeat: no-repeat;  
+    height: 100vh;
+    width: 49%;
+    vertical-align: top;
+    border-radius: 20px;
+}
+.inscripciones-izq h2{
+  font-size: 60px;
+  margin-top:25%;
+  line-height: 90px;
+}
+.inscripciones{
+  margin: auto;
+  text-align: center;
+  padding:40px 90px;
+  vertical-align: top;
+}
+
+.inscripciones{
+  margin: auto;
+  text-align: center;
+}
+
+.cajita{
+ width: 22%;
+ display: inline-block;
+ margin-right: 10px;
+}
+.formulario-inscripcion{
+  vertical-align: top;
 }

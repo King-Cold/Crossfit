@@ -3,32 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Crossfit</title>
+  <title>Coaches- Crossfit</title>
   <link rel="stylesheet" href="css/styles.css">
   <meta name="description" content="Home de la pagina">
 </head>
 <body>
 
 <div class="fondo-gris">
-      <div class="nav">
-        <div class="logo ">
-          <div class="img">
-            <img src="img/23.png" alt="">
-          </div>
-          <div class="nombre">
-            <p> CROS<span class="rojo">SFIT</span> </p>
-          </div>
-        </div>
-        <div class="navegador ">
-          <a href="index.html">HOME</a>  
-          <a href="sobre.html">SOBRE NOSOTROS</a>
-    <a href="clases.html">CLASES</a>
-    <a href="coaches.html">COACHES</a>
-    <a href="inscripciones.html">INSCRIPCIONES</a>
-    <a href="contacto.html">CONTACTO</a>
-  
-        </div>
-      </div>
+       <?php include "include/menu.php"?>
 </div>
 <div class="fondo-coaches">
   <div class="coauches ancho centrar">
@@ -141,11 +123,5 @@
 </script>
 </body>
 <br>
-<div class="footer ">
-  <p> <span class="blanco">&copy; 2025 CROSSFIT</span class="blanco">. Todos los derechos reservados  |  Política de Privacidad  | Términos y Condiciones</p>
-        <p class="blanco">
-            Diseño Web por Rodrigo Alejandro Chi Catzim
-        </p>
-        
-    </div>
+<?php include "include/abajo.php"?>
 </html>
